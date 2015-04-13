@@ -1,0 +1,140 @@
+/* layout janelas chat */
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+	background:#F4F4F4;	
+}
+
+div#contatos {
+	width:200px;
+	border-right:1px solid #333;
+	background:#EBEBEB;
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+div#contatos ul{
+	list-style-type:none;
+	margin:0;
+	width:100%;
+}
+
+div#contatos ul li{
+	float:left;
+	display:block;
+	width:100%;
+	background:#ccc;
+	margin-bottom:1px;
+}
+div#contatos ul li a{
+	text-decoration:none;
+	display:block;
+	padding:4px;
+	font: 15px 'Trebuchet MS', tahoma, arial;
+}
+
+div#contatos ul li a:hover{
+	background:#EBEBEB;
+}
+
+
+div#janelas {
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:85%;
+}
+div#janelas div.janela{
+	width:230px;
+	background:#E8E8E8;
+	margin-right:5px;
+	float:right;
+	margin-bottom:0;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+}
+div.janela div.topo{
+	float:left;
+	width:230px;
+	background:#2C6038;
+	height:25px;
+	border-bottom:1px solid #333;
+	cursor:pointer;
+}
+div.topo.fixar{
+	position:absolute;
+	bottom:0;	
+}
+div.topo span{
+	float:left;
+	font:14px tahoma, arial, helvetica;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:4px;
+}
+div.janela div.topo a#fechar{
+	float:left;
+	padding:2px 6px;
+	height:21px;
+	font:15px tahoma, arial;
+	color:#FFFFFF;
+	float:right;
+	text-decoration:none;
+}
+div.janela div.topo a#fechar:hover{
+	background:#000;
+}
+div.janela input[type=text]{
+	padding:3px; border:0;
+	outline:none;
+	background:#F4F4F4;
+	color:#333;
+	font:13px arial, tahoma;
+	width:224px;
+}
+div.mensagens{
+	float:left;
+	width:230px;
+	background:#fff;
+	height:250px;
+	border-bottom:1px solid #333333;
+}
+
+div.mensagens ul.listar{
+	float:left;
+	list-style-type:none;
+	width:230px;
+	background:#FFFFFF;
+	height:250px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+div.mensagens ul.listar li{
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #333;
+	padding-bottom:3px;
+}
+
+div.mensagens ul.listar li span{
+	float:left;
+	width:100%;
+	color:#333;
+	font: 13px tahoma, arial, helvetica;
+	margin:3px;
+}
+
+div.mensagens ul.listar li p{
+	float:left;
+	width:100%;
+	color:#333;
+	font: 13px tahoma, arial, helvetica;
+	margin-left:3px;
+}s

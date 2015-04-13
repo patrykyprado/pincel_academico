@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="PagSeguroAddress.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroAccountCredentials.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroCurrencies.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroDocument.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroDocuments.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroError.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroHttpStatus.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroCredentials.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroItem.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroMetaData.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroMetaDataItem.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroMetaDataItemKeys.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroNotificationType.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroParameter.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroParameterItem.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroPaymentMethod.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroPaymentMethodCode.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroPaymentMethodType.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroPaymentRequest.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroPhone.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroSender.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroSenderDocument.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroShipping.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroShippingType.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransaction.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransactionCancellationSource.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransactionSearchResult.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransactionStatus.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransactionSummary.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+<file name="PagSeguroTransactionType.class.php" server="50.97.48.229/public_html/pincelatomico/" local="130516473780000000" remote="130614751800000000" Dst="2" />
+</dwsync>

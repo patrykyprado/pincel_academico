@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CommandHandlerBase.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053641902917" remote="130643397600000000" Dst="2" />
+<file name="CopyFiles.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642022971" remote="130643397600000000" Dst="2" />
+<file name="CreateFolder.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642092991" remote="130643397600000000" Dst="2" />
+<file name="DeleteFiles.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642153005" remote="130643397600000000" Dst="2" />
+<file name="DeleteFolder.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642203032" remote="130643397600000000" Dst="2" />
+<file name="DownloadFile.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642263072" remote="130643397600000000" Dst="2" />
+<file name="FileUpload.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642333092" remote="130643397600000000" Dst="2" />
+<file name="GetFiles.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642413109" remote="130643397600000000" Dst="2" />
+<file name="GetFolders.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642473124" remote="130643397600000000" Dst="2" />
+<file name="Init.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642533153" remote="130643397600000000" Dst="2" />
+<file name="LoadCookies.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642593167" remote="130643397600000000" Dst="2" />
+<file name="MoveFiles.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642713214" remote="130643397600000000" Dst="2" />
+<file name="QuickUpload.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642773209" remote="130643397600000000" Dst="2" />
+<file name="RenameFile.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642933293" remote="130643397600000000" Dst="2" />
+<file name="RenameFolder.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053642993314" remote="130643397600000000" Dst="2" />
+<file name="Thumbnail.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053643103370" remote="130643397600000000" Dst="2" />
+<file name="XmlCommandHandlerBase.php" server="50.97.48.229/public_html/pincelatomico/" local="130608053643293418" remote="130643397600000000" Dst="2" />
+</dwsync>

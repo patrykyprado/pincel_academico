@@ -1,0 +1,191 @@
+.contrato_final{
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12pt;	
+	margin-top:10px;
+	text-align:justify;
+	background:#FFFFFF;
+	
+
+}
+.contrato_topo{
+	background:#DDDDDD;
+	text-align:center;
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:10px;	
+	font-weight:bolder;
+	float:right;
+	width:99%;
+	border:2px solid #000000;
+}
+.rodape_contrato{
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif; 
+	text-align:right;
+	float:right;
+	margin-top:20px;
+}
+
+a{
+	text-decoration:none;	
+}
+
+.contrato_lateral{
+	background:#DDDDDD;
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:10px;	
+	width:50%;
+	float:right;
+	border:2px solid #000000;
+}
+.contrato_corpo{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:10px;	
+	width:100%;
+	float:right;
+	
+}
+
+.header{
+	display:none;
+}
+.nav-collapse {
+	display:none;	
+}
+.nav-collapse {
+	display:none;	
+}
+.panel-heading{
+	display:none;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.boxed-page .container .wrapper{
+    background-color:#FFF;	
+	background: #FFF;
+}
+
+section#main-content{	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.site-footer{
+	display:none;
+}
+
+table { page-break-inside:auto }
+
+.wrapper, .site-min-height {
+	background-color:#FFF;	
+	background: #FFF;
+}
+
+
+.col-md-12{
+	margin-left:auto;
+	margin-top:-90px;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.row{
+	margin-left:auto;
+	margin-top:0px;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.wrapper site-min-height{
+	margin-left:auto;
+	margin-bottom:auto;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.filtro{
+	display:none;	
+}
+.panel-footer{
+	display:none;
+	background-color:#FFF;	
+	background: #FFF;
+}
+.painel{
+	background-color:#FFF;	
+	background: #FFF;	
+}
+
+p.quebra    { page-break-before: always }
+
+a[href]:after		
+{content: "";
+
+}
+.paginar {
+	width:100%;
+	height:680px;
+	page-break-before: always;
+}
+.break{
+	break-before:always;
+	page-break-before:always;
+}
+.break2{
+	break-before:always;
+	page-break-before:always;
+}
+
+body {
+    color: #797979;
+ 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:13px;
+}
+
+/* LAYOUT DE VISUALIZAÇÃO DE DIÁRIO / ATA E DOCUMENTOS ACADÊMICOS */
+.diario_frequencia_tabela{
+	width:100%;	
+	border:1px solid;
+	font-size:7px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	line-height:10px;
+	color:#000000;
+}
+.diario_frequencia_header {
+	font-size:8px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#000000;
+}
+
+.diario_frequencia_corpo{
+	font-size:8px;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#000000;
+}
+
+.tabela_relatorio{
+	font-size:8px;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+
+.tabela_corpo{
+	font-size:8px;
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#000000;
+}
+
+
+.white-bg {
+    background: #FFF;
+	background-color:#FFF;
+}
+
+.sb-site{
+	background-color:#FFF;
+	min-height: auto;	
+}
