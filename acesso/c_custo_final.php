@@ -44,7 +44,7 @@ include ('menu/config_drop.php');?>
 		  $sql = "SELECT * FROM cc1 WHERE id_empresa = $user_empresa";
 	  }
 $result = mysql_query($sql);
- 
+
 while ($row = mysql_fetch_array($result)) {
     echo "<option value='" . $row['id_empresa'] . "'>" . $row['nome_cc1'] . "</option>";
 }
