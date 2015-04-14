@@ -38,13 +38,13 @@ include('includes/menu_lateral.php');
       <?php
 include ('menu/config_drop.php');?>
       <?php
-	  if($user_empresa == 0){
+	  if($user_empresa == 0 || $user_iduser == 15){
 		$sql = "SELECT * FROM cc1 ";
 	  } else {
 		  $sql = "SELECT * FROM cc1 WHERE id_empresa = $user_empresa";
 	  }
 $result = mysql_query($sql);
-
+ 
 while ($row = mysql_fetch_array($result)) {
     echo "<option value='" . $row['id_empresa'] . "'>" . $row['nome_cc1'] . "</option>";
 }
