@@ -91,7 +91,7 @@ function func_drop_unidade($userUnidade = null){
 
 function func_busca_disciplinas_agrupamento($dados){
     global $conn;
-    $sql_disciplinas = "SELECT ct.cod_turma, ct.nivel, ct.curso, ct.modulo, ct.unidade,
+    $sql_disciplinas = "SELECT ct.cod_turma, d.nivel, d.curso, d.modulo, ct.unidade,
 ct.polo, ct.grupo, ctd.codigo AS turma_disc, d.disciplina
 FROM ced_turma ct
 INNER JOIN ced_turma_disc ctd
@@ -101,6 +101,9 @@ ON d.anograde = ct.anograde AND ctd.disciplina = d.cod_disciplina
 WHERE 1 = 1 ";
     if(!empty($dados['disciplina'])){
         $sql_disciplinas .= " AND d.disciplina LIKE '%".$dados['disciplina']."%'";
+    }
+    if(!empty($dados['turma_disc'])){
+        $sql_disciplinas .= " AND ctd.codigo = '".$dados['turma_disc']."'";
     }
     if(!empty($dados['grupo'])){
         $sql_disciplinas .= " AND ct.grupo LIKE '%".$dados['grupo']."%'";
@@ -119,7 +122,7 @@ function func_drop_agrupamentos_ativos(){
     global $conn;
     $sql_agrupamentos = "SELECT id_agrupamento, agrupamento FROM agrupamentos
 WHERE CURRENT_DATE <= data_inicio";
-    //DROP DE AGRUPAMENTOS ATIVOS NÃO INICIADOS
+    //DROP DE AGRUPAMENTOS ATIVOS Nï¿½O INICIADOS
     $sql_drop_agrupamentos = $conn->prepare($sql_agrupamentos);
     $sql_drop_agrupamentos->execute();
     return $sql_drop_agrupamentos;
@@ -253,7 +256,7 @@ function func_dados_usuario($usuario){
 exibir_email, sobre, foto_perfil, foto_academica
 FROM acessos_completos
 WHERE usuario = '{$usuario}'";
-    //BUSCA DADOS DO USUÁRIO RECEBIDO PELO PARAMENTO USUARIO
+    //BUSCA DADOS DO USUï¿½RIO RECEBIDO PELO PARAMENTO USUARIO
     $sql_dados_usuario = $conn->prepare($sql_usuario);
     $sql_dados_usuario->execute();
 
@@ -261,7 +264,7 @@ WHERE usuario = '{$usuario}'";
         $sql_usuario = "SELECT id_user, nome,usuario, senha, foto_perfil, grupo, setor, email
 FROM users
 WHERE usuario = '{$usuario}'";
-        //BUSCA DADOS DO USUÁRIO RECEBIDO PELO PARAMENTO USUARIO
+        //BUSCA DADOS DO USUï¿½RIO RECEBIDO PELO PARAMENTO USUARIO
         $sql_dados_usuario = $conn->prepare($sql_usuario);
         $sql_dados_usuario->execute();
     }

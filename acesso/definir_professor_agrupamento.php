@@ -7,13 +7,19 @@ include('includes/topo_inside.php');
 $id = $_GET["id"];
 
 if(isset($_GET["salvar"])){
-    $id           = $_GET["turma_disc"];
+    $id           = $_GET["id_agrupamento"];
     $professor         = $_GET["professor"];
 
 
     if(@mysql_query("UPDATE agrupamentos SET cod_professor = '$professor' WHERE id_agrupamento = $id")) {
 
         if(mysql_affected_rows() == 1){
+            $sql_disciplinas_agrupadas = mysql_query("SELECT disciplinas FROM agrupamentos WHERE id_agrupamento = $id");
+            $dados_disciplinas = mysql_fetch_array($sql_disciplinas_agrupadas);
+
+            //INSERE PROFESSOR NAS DISCIPLINAS AGRUPADAS
+            $sql_atualizar_professor = mysql_query("UPDATE ced_turma_disc SET cod_prof = '$professor' WHERE codigo IN (".$dados_disciplinas['disciplinas'].")");
+
             echo ("<SCRIPT LANGUAGE='JavaScript'>
 			window.alert('Professor definido com sucesso!');
 			window.opener.location.reload();
